@@ -237,6 +237,7 @@ func (w *World) isEndGame() bool {
 
 func main() {
 
+	//!! stupid way to do this
 	//create world
 	w := World{size: 9}
 	w.create()
